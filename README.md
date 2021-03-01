@@ -71,7 +71,7 @@ Open the application on your browser `127.0.0.1:5000`.
 
 ## Contact Information 
 
-If you have any question or contributions, please email me at [stephendele093@gmail]
+If you have any question or contributions, please email me at [stephendele093@gmail.com]
 
 ## License
 * *MIT License:*
