@@ -23,6 +23,13 @@
     font-size: 40px;
     font-family: 'Farro', sans-serif;
 }
+#post{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: 'Farro', sans-serif; 
+}
 .pict{
     margin-top: 2%;
 }
