@@ -1,4 +1,4 @@
-# pitch-world
+# pitch-home
 ## Author
 
 [Stephen Ndele](https://github.com/stephenndele)
@@ -54,7 +54,7 @@ To get the code..
   ```
 5. Testing the application
   ```bash
-  python3.6 manage.py test
+  python3.8 manage.py test
   ```
 Open the application on your browser `127.0.0.1:5000`.
 
