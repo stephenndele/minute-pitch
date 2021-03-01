@@ -4,8 +4,6 @@ load_dotenv()
 
 class Config:
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
-    # 'postgresql+psycopg2://moringa:Access@localhost/pitch'
-    os.environ.get('DATABASE_URL')
     SQLALCHEMY_TRACK_MODIFICATIONS=True
     SECRET_KEY=os.environ.get('SECRET_KEY')
     UPLOADED_PHOTOS_DEST ='app/static/photos'
@@ -18,7 +16,6 @@ class Config:
 
 class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
-    # 'postgresql+psycopg2://moringa:Access@localhost/pitch'
     
 
 class DevConfig(Config):
