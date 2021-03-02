@@ -14,11 +14,13 @@ class Config:
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
 
 class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost:5432/pitch'
+    # os.environ.get('DATABASE_URL')
     
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost:5432/pitch'
+    # os.environ.get('DATABASE_URL')
     DEBUG = True
 
 config_options = {
@@ -27,4 +29,3 @@ config_options = {
 }
 
 
-# connection = psycopg2.connect(database="gps_heatmap", user="postgres", password="1234", host="localhost", port=5433)
