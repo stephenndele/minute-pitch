@@ -42,6 +42,11 @@ To get the code..
 2. Move to the folder and install requirements
   ```bash
   cd minute-pitch
+### create virtual environment and install pip
+  $ python3 -m venv --without-pip virtual
+  $ source virtual/bin/env
+  $ curl https://bootstrap.pypa.io/get-pip.py | python
+
   pip install -r requirements.txt
   ```
 3. Exporting Configurations
