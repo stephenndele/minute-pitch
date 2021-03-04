@@ -9,7 +9,7 @@
 							<div class="card-body">
 									<p>{{category.post}}</p>
 									<p class="text-center"> Category: {{category.category}}</p>
-									<footer class="blockquote-footer text-center" > By: {{category.user.username}}</footer>
+									<footer > By: {{category.user.username}}</footer>
 								<div><span class="foot" >{{category.comment.count()}} Comments</span> 
 									<span class="foot" > <a href="{{url_for('main.like',id = category.id)}}"><i class="fa fa-thumbs-up" style="font-size:18px;color: green"></i></a> {{category.upvote.count()}}</span>
 									
